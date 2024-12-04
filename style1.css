@@ -1,0 +1,167 @@
+/* This is the style sheet for the Index page */
+
+/* General styling for the entire page */
+/* The asterisk (*) applies the styles to all elements on the page */
+* {
+  margin: 0px; /* Removes default margin from all elements */
+  box-sizing: border-box; /* Ensures padding and border are included within the element's width and height */
+}
+
+/* Header section styling */
+.header1 { 
+  display: flex; /* Enables flexbox layout for child elements */
+  align-items: center; /* Vertically centers items within the header */
+  justify-content: center; /* Horizontally centers items */
+  position: relative; /* Allows positioning of child elements relative to this container */
+  padding: 4vw; /* Adds space inside the header */
+}
+
+/* Logo styling within the header */
+.header1 .logo {
+  position: absolute; /* Allows precise positioning within the header */
+  margin-bottom: -10px; /* Slight upward adjustment */
+  width: 20vw; /* Sets the width relative to the viewport width */
+  height: 5vw; /* Sets the height relative to the viewport width */
+  margin-left: 75vw; /* Positions the logo towards the right */
+}
+
+/* Main heading (h1) styling */
+.header1 h1 {
+  position: absolute; /* Enables absolute positioning within the header */
+  left: 35vw; /* Positions the heading in the center of the viewport */
+  transform: translateX(-50%); /* Centers the element horizontally */
+  font-size: 3.5vw; /* Sets a scalable font size */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Specifies the font style */
+  color: #646463; /* Sets the text color */
+}
+
+/* Secondary heading (h2) styling */
+.header1 h2 {
+  position: absolute; /* Enables precise positioning */
+  left: 5vw; /* Positions it towards the left */
+  transform: translateX(-50%); /* Adjusts alignment for better centering */
+  font-size: 2.5vw; /* Slightly smaller than h1 */
+  padding: 10px; /* Adds space around the text */
+  font-weight: bold; /* Makes the text bold */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #646463;
+}
+
+/* Body text styling */
+.body1 {
+  font-size: 1.5vw; /* General font size for body content */
+  color: #646463; /* Text color */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* German car text box styling */
+.body1 .germancartextbox {
+  position: sticky; /* Keeps the element fixed while scrolling */
+  width: 25vw; /* Width of the box */
+  margin-top: -34.25vw; /* Adjusts vertical placement */
+  margin-left: 72.5vw; /* Positions it towards the right */
+  border: 0.3vw solid black; /* Black border around the box */
+  padding: 0.5vw; /* Adds padding inside the box */
+}
+
+/* Japanese car text box styling */
+.body1 .japanesecartextbox {
+  position: sticky; /* Sticky positioning */
+  display: inline-block; /* Aligns alongside other elements */
+  width: 25vw;
+  margin-top: 3vw; /* Adjusts vertical spacing */
+  margin-left: 3vw; /* Positions it towards the left */
+  border: 0.3vw solid black;
+  padding: 0.5vw;
+}
+
+/* Site information text box styling */
+.body1 .siteinfotextbox {
+  position: absolute; /* Sticky positioning */
+  top: 17.5vw; /* Sticks 20px from the top of the viewport */
+  left: 31.25vw;
+  width: 37.5vw;
+  margin: 0 auto; /* Center horizontally if necessary */
+  border: 0.3vw solid black;
+  padding: 0.5vw;
+  background-color: white;
+}
+
+/* Japanese car image styling */
+.body1 .japancars {
+  position: absolute; /* Allows absolute positioning */
+  width: 25vw;
+  height: 15vw; /* Sets a fixed height */
+  margin-top: 0.5vw;
+  margin-left: 2.5vw; /* Positions towards the left */
+  border: 0.3vw solid black;
+}
+
+/* German car image styling */
+.body1 .germancars {
+  width: 25vw;
+  height: 15vw;
+  margin-top: 0.5vw;
+  margin-left: 72.5vw; /* Positions towards the right */
+  border: 0.3vw solid black;
+}
+
+/* Button 1 styling */
+.button1 {
+  font-size: 2vw; /* Sets button text size */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 7.5vw; /* Adds space on the left */
+  text-decoration: none;
+  text-decoration: underline;
+  background: #646463; /* Sets background color */
+  color: white; /* Sets text color */
+  border: 0.3vw solid black;
+  padding: 5px; /* Adds padding around text */
+  white-space: pre; /* Preserves spacing */
+}
+
+/* Button 2 styling */
+.button2 {
+  font-size: 2vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 57.5vw; /* Positions towards the center-right */
+  text-decoration: none;
+  text-decoration: underline;
+  background: #646463;
+  color: white;
+  border: 0.3vw solid black;
+  padding: 5px;
+  white-space: pre;
+}
+
+/* Button 3 styling */
+.button3 {
+  position: absolute;
+  font-size: 2vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  text-decoration: underline;
+  background: #646463;
+  color: white;
+  border: 0.3vw solid black;
+  padding: 0.5vw;
+  white-space: pre;
+  top: 12.5vw;
+  left: 41.25vw;
+}
+
+/* Footer styling */
+.footer {
+  background-color: white; /* Sets background to white */
+  color: #646463; /* Text color */
+  text-align: center; /* Centers content horizontally */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px 0; /* Adds space inside the footer */
+  width: 100%; /* Full width */
+  border-top: 3px solid black; /* Top border for separation */
+}
+
+/* Horizontal line (hr) styling */
+hr {
+  border: 0.3vw solid black; /* Makes the line thicker and black */
+}
